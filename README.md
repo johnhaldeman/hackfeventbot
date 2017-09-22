@@ -53,7 +53,6 @@ Hey @hackfeventbot what groups are there to choose from?
 SELECT DISTINCT group
      FROM events;
 ?>
-?> | hammersay
 ```
 ![A Simple HEQL Query](https://github.com/johnhaldeman/hackfeventbot/raw/master/screenshots/HEQLDistinct.png)
 
