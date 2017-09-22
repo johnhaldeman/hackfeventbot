@@ -20,7 +20,7 @@ FROM events?> | pretty
 ```
 ![A Simple HEQL Query](https://github.com/johnhaldeman/hackfeventbot/raw/master/screenshots/SimpleHEQL.png)
 
-Select Next Software Guild Event About Grammars and output as JSON:
+### Select Next Software Guild Event About Grammars and output as JSON:
 ```
 Hey @hackfeventbot can you get me the next event
 <?heql 
@@ -31,7 +31,7 @@ WHERE group = 'Software Guild' and title LIKE '%Grammar%'
 ```
 ![A Simple HEQL Query](https://github.com/johnhaldeman/hackfeventbot/raw/master/screenshots/HEQLwConditions.png)
 
-Select something and have a hammer output the results
+### Select something and have a hammer output the results
 ```
 Hey @hackfeventbot can you get me those links but make it look like a hammer is saying it because that’s awesome
 <?heql
@@ -43,7 +43,7 @@ WHERE group = 'Software Guild' and title LIKE '%Grammar%';
 ![A Simple HEQL Query](https://github.com/johnhaldeman/hackfeventbot/raw/master/screenshots/HEQLHammersay.png)
 
 
-Select distinct values for a specific field to help with other queries
+### Select distinct values for a specific field to help with other queries
 ```
 Hey @hackfeventbot what groups are there to choose from?
 <?heql 
