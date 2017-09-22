@@ -11,7 +11,8 @@ It gets it's information on events by retreiving and then attempting to parse ht
 ## Now with HEQL!
 As part of a Software Guild session on parsing languages with grammars, hackfeventbot now parses a SQL-Like language called HEQL (Hackforge Event Query Language, pronounced "heckle"). Below are some examples of executing HEQL.
 
-Select the Next Event:
+
+### Select the Next Event:
 ```
 Hey @hackforgeeventbot can you get me the next event
 <?heql 
@@ -19,6 +20,7 @@ SELECT NEXT title, content, excerpt, start_date_time, end_date_time, meetup_link
 FROM events?> | pretty
 ```
 ![A Simple HEQL Query](https://github.com/johnhaldeman/hackfeventbot/raw/master/screenshots/SimpleHEQL.png)
+
 
 ### Select Next Software Guild Event About Grammars and output as JSON:
 ```
@@ -30,6 +32,7 @@ WHERE group = 'Software Guild' and title LIKE '%Grammar%'
 ?> | json
 ```
 ![A Simple HEQL Query](https://github.com/johnhaldeman/hackfeventbot/raw/master/screenshots/HEQLwConditions.png)
+
 
 ### Select something and have a hammer output the results
 ```
